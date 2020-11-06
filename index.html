@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
     <title>Website</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                 </ul>
             </div>
             <div class="menu-bar">
-                <img src="" alt="" class="logo-shop">
+                <img src="logo.png" alt="" class="logo-shop">
                 <ul class="category">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">SHOP</a></li>
@@ -28,15 +29,37 @@
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
             </div>
-            <div class="search">
-                <button></button>
-            </div>
-            <div class="cart">
-                <button>CART</button>
+            <div class="action-button">
+                <div class="search">
+                    <button></button>
+                </div>
+                <div class="cart">
+                    <button>CART</button>
+                </div>
             </div>
         </div>
         <div class="body"></div>
         <div class="footer"></div>
     </div>
+
+    <header class="header">
+        <div class="header__left">
+          <a class="header__logo"
+            ><img src="https://www.bevylabs.com/static/assets/bevy/logo.png"
+          /></a>
+          <nav class="header__nav">
+            <ul class="header__nav-item-list">
+              <li class="header__nav-item"><a href="#">Customers</a></li>
+              <li class="header__nav-item"><a href="#">Blog</a></li>
+              <li class="header__nav-item"><a href="#">Pricing</a></li>
+              <li class="header__nav-item"><a href="#">Jobs</a></li>
+              <li class="header__nav-item"><a href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <a class="header__cta" href="#">Schedule a Demo</a>
+        </div>
+      </header>
 </body>
 </html>
